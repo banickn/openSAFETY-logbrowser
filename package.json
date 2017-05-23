@@ -1,0 +1,22 @@
+{
+  "name": "openSAFETY log browser",
+  "version": "1.0.0",
+  "description": "An openSAFETY log browser application for openPOWERLINK MNs",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": "https://github.com/",
+  "keywords": [
+    "openSAFETY"
+  ],
+  "author": "BR-Automation",
+  "license": "CC0-1.0",
+  "devDependencies": {
+    "electron": "~1.6.2",
+    "jquery": "^3.0",
+  },
+  "dependencies": {
+    "parse-json": "^2.2.0"
+  }
+}

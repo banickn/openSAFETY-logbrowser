@@ -1,0 +1,580 @@
+[{"Nr": 0,
+"formatID": 2,
+"EntryNr": 1251190528,
+"TimeStamp": 270368809758565863,
+"ErrorCode": "0000",
+"ErrorInfo1": "0050",
+"ErrorInfo2": "0100",
+"Level": "Warning"
+}
+,
+{"Nr": 1,
+"formatID": 2,
+"EntryNr": 26854,
+"TimeStamp": 1262304018000,
+"ErrorCode": "e005",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "0000",
+"Level": "Info"
+}
+,
+{"Nr": 2,
+"formatID": 2,
+"EntryNr": 26855,
+"TimeStamp": 1262304050248,
+"ErrorCode": "d01e",
+"ErrorInfo1": "0010",
+"ErrorInfo2": "0001",
+"Level": "Error"
+}
+,
+{"Nr": 3,
+"formatID": 2,
+"EntryNr": 26856,
+"TimeStamp": 1262304050252,
+"ErrorCode": "9403",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "8000",
+"Level": "Error"
+}
+,
+{"Nr": 4,
+"formatID": 2,
+"EntryNr": 26857,
+"TimeStamp": 1262304050256,
+"ErrorCode": "8403",
+"ErrorInfo1": "1ea4",
+"ErrorInfo2": "0200",
+"Level": "Error"
+}
+,
+{"Nr": 5,
+"formatID": 2,
+"EntryNr": 26858,
+"TimeStamp": 1262304050440,
+"ErrorCode": "c08f",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "0000",
+"Level": "Warning"
+}
+,
+{"Nr": 6,
+"formatID": 2,
+"EntryNr": 26859,
+"TimeStamp": 1262304050440,
+"ErrorCode": "c01e",
+"ErrorInfo1": "0010",
+"ErrorInfo2": "0001",
+"Level": "Error"
+}
+,
+{"Nr": 7,
+"formatID": 2,
+"EntryNr": 26860,
+"TimeStamp": 1262304050660,
+"ErrorCode": "8481",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "100e3",
+"Level": "Warning"
+}
+,
+{"Nr": 8,
+"formatID": 2,
+"EntryNr": 26861,
+"TimeStamp": 1262304091132,
+"ErrorCode": "8511",
+"ErrorInfo1": "3937",
+"ErrorInfo2": "36324641",
+"Level": "Info"
+}
+,
+{"Nr": 9,
+"formatID": 2,
+"EntryNr": 26862,
+"TimeStamp": 1262304123064,
+"ErrorCode": "1170",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "0000",
+"Level": "Error"
+}
+,
+{"Nr": 10,
+"formatID": 2,
+"EntryNr": 26863,
+"TimeStamp": 1262304123069,
+"ErrorCode": "e007",
+"ErrorInfo1": "0001",
+"ErrorInfo2": "0000",
+"Level": "Info"
+}
+,
+{"Nr": 11,
+"formatID": 2,
+"EntryNr": 26864,
+"TimeStamp": 1262304153430,
+"ErrorCode": "c08f",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "0000",
+"Level": "Warning"
+}
+,
+{"Nr": 12,
+"formatID": 2,
+"EntryNr": 26865,
+"TimeStamp": 1262304153430,
+"ErrorCode": "c01e",
+"ErrorInfo1": "0010",
+"ErrorInfo2": "0001",
+"Level": "Error"
+}
+,
+{"Nr": 13,
+"formatID": 2,
+"EntryNr": 26866,
+"TimeStamp": 1262304153438,
+"ErrorCode": "8403",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "2000",
+"Level": "Error"
+}
+,
+{"Nr": 14,
+"formatID": 2,
+"EntryNr": 26867,
+"TimeStamp": 1262304153440,
+"ErrorCode": "9403",
+"ErrorInfo1": "3dee",
+"ErrorInfo2": "0200",
+"Level": "Error"
+}
+,
+{"Nr": 15,
+"formatID": 2,
+"EntryNr": 26868,
+"TimeStamp": 1262304153500,
+"ErrorCode": "d01e",
+"ErrorInfo1": "0010",
+"ErrorInfo2": "0001",
+"Level": "Error"
+}
+,
+{"Nr": 16,
+"formatID": 2,
+"EntryNr": 26869,
+"TimeStamp": 1262304153600,
+"ErrorCode": "8481",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "100e3",
+"Level": "Warning"
+}
+,
+{"Nr": 17,
+"formatID": 2,
+"EntryNr": 26870,
+"TimeStamp": 1262304153606,
+"ErrorCode": "8511",
+"ErrorInfo1": "4243",
+"ErrorInfo2": "34444445",
+"Level": "Info"
+}
+,
+{"Nr": 18,
+"formatID": 2,
+"EntryNr": 26871,
+"TimeStamp": 1262304362915,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "c0a86409",
+"Level": "Error"
+}
+,
+{"Nr": 19,
+"formatID": 2,
+"EntryNr": 26872,
+"TimeStamp": 1262304362930,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "c0a8640b",
+"Level": "Error"
+}
+,
+{"Nr": 20,
+"formatID": 2,
+"EntryNr": 26873,
+"TimeStamp": 1262304362937,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "c0a8640c",
+"Level": "Error"
+}
+,
+{"Nr": 21,
+"formatID": 2,
+"EntryNr": 26874,
+"TimeStamp": 1262304364886,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "c0a8640d",
+"Level": "Error"
+}
+,
+{"Nr": 22,
+"formatID": 2,
+"EntryNr": 26875,
+"TimeStamp": 1262304364894,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "c0a8640e",
+"Level": "Error"
+}
+,
+{"Nr": 23,
+"formatID": 2,
+"EntryNr": 26876,
+"TimeStamp": 1262304364903,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "c0a8640f",
+"Level": "Error"
+}
+,
+{"Nr": 24,
+"formatID": 2,
+"EntryNr": 26877,
+"TimeStamp": 1262304364912,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "c0a86410",
+"Level": "Error"
+}
+,
+{"Nr": 25,
+"formatID": 2,
+"EntryNr": 26878,
+"TimeStamp": 1262304364931,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "c0a86404",
+"Level": "Error"
+}
+,
+{"Nr": 26,
+"formatID": 2,
+"EntryNr": 26879,
+"TimeStamp": 1262304369860,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "c0a8640a",
+"Level": "Error"
+}
+,
+{"Nr": 27,
+"formatID": 2,
+"EntryNr": 26880,
+"TimeStamp": 1262304370244,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0001",
+"ErrorInfo2": "c0a86404",
+"Level": "Info"
+}
+,
+{"Nr": 28,
+"formatID": 2,
+"EntryNr": 26881,
+"TimeStamp": 1262304370463,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0001",
+"ErrorInfo2": "c0a8640d",
+"Level": "Info"
+}
+,
+{"Nr": 29,
+"formatID": 2,
+"EntryNr": 26882,
+"TimeStamp": 1262304370488,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0001",
+"ErrorInfo2": "c0a8640e",
+"Level": "Info"
+}
+,
+{"Nr": 30,
+"formatID": 2,
+"EntryNr": 26883,
+"TimeStamp": 1262304370503,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0001",
+"ErrorInfo2": "c0a8640f",
+"Level": "Info"
+}
+,
+{"Nr": 31,
+"formatID": 2,
+"EntryNr": 26884,
+"TimeStamp": 1262304370532,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0001",
+"ErrorInfo2": "c0a86410",
+"Level": "Info"
+}
+,
+{"Nr": 32,
+"formatID": 2,
+"EntryNr": 26885,
+"TimeStamp": 1262304373415,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0001",
+"ErrorInfo2": "c0a8640a",
+"Level": "Info"
+}
+,
+{"Nr": 33,
+"formatID": 2,
+"EntryNr": 26886,
+"TimeStamp": 1262304961309,
+"ErrorCode": "8511",
+"ErrorInfo1": "4243",
+"ErrorInfo2": "34444445",
+"Level": "Info"
+}
+,
+{"Nr": 34,
+"formatID": 2,
+"EntryNr": 26887,
+"TimeStamp": 1262305400771,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "c0a8640a",
+"Level": "Error"
+}
+,
+{"Nr": 35,
+"formatID": 2,
+"EntryNr": 26888,
+"TimeStamp": 1262305400780,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "c0a8640b",
+"Level": "Error"
+}
+,
+{"Nr": 36,
+"formatID": 2,
+"EntryNr": 26889,
+"TimeStamp": 1262305400790,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "c0a8640c",
+"Level": "Error"
+}
+,
+{"Nr": 37,
+"formatID": 2,
+"EntryNr": 26890,
+"TimeStamp": 1262305400809,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "c0a8640e",
+"Level": "Error"
+}
+,
+{"Nr": 38,
+"formatID": 2,
+"EntryNr": 26891,
+"TimeStamp": 1262305400828,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "c0a86410",
+"Level": "Error"
+}
+,
+{"Nr": 39,
+"formatID": 2,
+"EntryNr": 26892,
+"TimeStamp": 1262305400831,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "c0a86402",
+"Level": "Error"
+}
+,
+{"Nr": 40,
+"formatID": 2,
+"EntryNr": 26893,
+"TimeStamp": 1262305400838,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "c0a86411",
+"Level": "Error"
+}
+,
+{"Nr": 41,
+"formatID": 2,
+"EntryNr": 26894,
+"TimeStamp": 1262305406383,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0001",
+"ErrorInfo2": "c0a86402",
+"Level": "Info"
+}
+,
+{"Nr": 42,
+"formatID": 2,
+"EntryNr": 26895,
+"TimeStamp": 1262305406477,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0001",
+"ErrorInfo2": "c0a8640a",
+"Level": "Info"
+}
+,
+{"Nr": 43,
+"formatID": 2,
+"EntryNr": 26896,
+"TimeStamp": 1262305406495,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0001",
+"ErrorInfo2": "c0a8640b",
+"Level": "Info"
+}
+,
+{"Nr": 44,
+"formatID": 2,
+"EntryNr": 26897,
+"TimeStamp": 1262305406523,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0001",
+"ErrorInfo2": "c0a8640c",
+"Level": "Info"
+}
+,
+{"Nr": 45,
+"formatID": 2,
+"EntryNr": 26898,
+"TimeStamp": 1262305406565,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0001",
+"ErrorInfo2": "c0a8640e",
+"Level": "Info"
+}
+,
+{"Nr": 46,
+"formatID": 2,
+"EntryNr": 26899,
+"TimeStamp": 1262305406613,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0001",
+"ErrorInfo2": "c0a86410",
+"Level": "Info"
+}
+,
+{"Nr": 47,
+"formatID": 2,
+"EntryNr": 26900,
+"TimeStamp": 1262305406615,
+"ErrorCode": "e01c",
+"ErrorInfo1": "0001",
+"ErrorInfo2": "c0a86411",
+"Level": "Info"
+}
+,
+{"Nr": 48,
+"formatID": 2,
+"EntryNr": 26901,
+"TimeStamp": 1262305576873,
+"ErrorCode": "c08b",
+"ErrorInfo1": "0001",
+"ErrorInfo2": "000a",
+"Level": "Info"
+}
+,
+{"Nr": 49,
+"formatID": 2,
+"EntryNr": 26902,
+"TimeStamp": 1262305695425,
+"ErrorCode": "e007",
+"ErrorInfo1": "0001",
+"ErrorInfo2": "0000",
+"Level": "Info"
+}
+,
+{"Nr": 50,
+"formatID": 2,
+"EntryNr": 26903,
+"TimeStamp": 1262305727671,
+"ErrorCode": "d01e",
+"ErrorInfo1": "0010",
+"ErrorInfo2": "0001",
+"Level": "Error"
+}
+,
+{"Nr": 51,
+"formatID": 2,
+"EntryNr": 26904,
+"TimeStamp": 1262305727683,
+"ErrorCode": "9403",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "2000",
+"Level": "Error"
+}
+,
+{"Nr": 52,
+"formatID": 2,
+"EntryNr": 26905,
+"TimeStamp": 1262305727687,
+"ErrorCode": "8403",
+"ErrorInfo1": "1ea8",
+"ErrorInfo2": "0200",
+"Level": "Error"
+}
+,
+{"Nr": 53,
+"formatID": 2,
+"EntryNr": 26906,
+"TimeStamp": 1262305727707,
+"ErrorCode": "c08f",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "0000",
+"Level": "Warning"
+}
+,
+{"Nr": 54,
+"formatID": 2,
+"EntryNr": 26907,
+"TimeStamp": 1262305727707,
+"ErrorCode": "c01e",
+"ErrorInfo1": "0010",
+"ErrorInfo2": "0001",
+"Level": "Error"
+}
+,
+{"Nr": 55,
+"formatID": 2,
+"EntryNr": 26908,
+"TimeStamp": 1262305727971,
+"ErrorCode": "8481",
+"ErrorInfo1": "0000",
+"ErrorInfo2": "100e3",
+"Level": "Warning"
+}
+,
+{"Nr": 56,
+"formatID": 2,
+"EntryNr": 26909,
+"TimeStamp": 1262305731227,
+"ErrorCode": "8511",
+"ErrorInfo1": "4243",
+"ErrorInfo2": "34444445",
+"Level": "Info"
+}
+,
+{"Nr": 57,
+"formatID": 2,
+"EntryNr": 26910,
+"TimeStamp": 1262305842087,
+"ErrorCode": "c08b",
+"ErrorInfo1": "0003",
+"ErrorInfo2": "5000",
+"Level": "Info"
+}
+]

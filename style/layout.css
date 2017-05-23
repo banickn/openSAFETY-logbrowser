@@ -1,0 +1,141 @@
+body {    
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: arial;
+    background-color: #f9f9f9;
+    overflow: hidden;
+}
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+#main-wrap {
+    overflow: hidden;
+}
+
+.menu-wrap {
+    width: 20%;
+    height: 100vh;
+    float: left;
+    position: relative;
+    margin: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    overflow: hidden;
+    overflow-y: auto;
+}
+
+.apply-filters {
+
+}
+
+.button-wrap {
+    margin: auto;
+}
+
+.button {    
+    background-color: #00afff;
+    border: none;
+    color: #f9f8ff;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.filter {
+}
+
+.open-file {
+    margin-top: 10px;
+    width: 100%;
+}
+
+.time-wrap {
+    padding-left: 5%;
+}
+
+.severity-wrap {
+    padding-left: 5%;
+}
+
+
+.log-content {
+    height: 100vh;
+    float: right;
+    width: 80%;
+    position: relative;
+    padding-left: 7.5px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    background-color: #f9f9f9;
+}
+
+.log-messages {
+    padding-top: 20px;
+}
+
+.message-names {
+    margin-top: 0px;
+    height: 20px;
+    width: 80%;
+    float: right;
+    display: flex;
+    z-index: 2;
+    position: fixed;
+    background-color: #f9f9f9;
+    padding-right: 25px;
+}
+
+.log-message {
+    height: 10%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    z-index: 1;
+}
+
+.date {
+    width: 11.5%;
+    height: 10%;
+    margin-right: 0px;
+}
+
+.time {
+    width: 7.5%;
+    height: 10%;
+    margin-right: 0px;
+}
+
+.severity {
+    width: 10%;
+    height: 10%;
+    margin-right: 0px;
+}
+
+.module {
+    width: 6%;
+    height: 10%;
+    margin-right: 0px;
+}
+
+.fileName {
+    width: 12.5%;
+    height: 10%;
+    margin-right: 0px;
+}
+
+.line {
+    width: 5%;
+    height: 10%;
+    margin-right: 0px;
+}
+
+.message {
+    width: 47.5%;
+    height: 10%;
+    margin-right: 0px;
+}
