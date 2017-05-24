@@ -1,43 +1,57 @@
 // Reference to the open file button
 const fileManagerBtn = document.getElementById('openFile');
+
 // Module to open a dialog from the renderer process
 const {dialog} = require('electron').remote;
-// Add an onclick listener to the button
+
+// Checkbox ids
+const severities = ["chkbx-info", "chkbx-warn", "chkbx-error"];
+
+// Apply Filter button id
+const applyFilterBtn = document.getElementById('applyFilters');
+
+
 fileManagerBtn.addEventListener('click', function (event) {
   openFile();
 })
-
-
-const applyFilterBtn = document.getElementById('applyFilters');
 
 applyFilterBtn.addEventListener('click', function (event) {
   readFile(files);
 })
 
-
-const severities = ["chkbx-info", "chkbx-warn", "chkbx-error"];
 var selectedSeverities = [];
+parseErrorCodes();
 
-
+/**
+ * Select error level severities
+ */
 function selectSeverities() {
- selectedSeverities = [];
- severities.forEach(function(elem) {
-   var element = document.getElementById(elem);
-   if (element.checked)
-       selectedSeverities.push(element.value);
-})
+   selectedSeverities = [];
+   severities.forEach(function(elem) {
+     var element = document.getElementById(elem);
+     if (element.checked)
+         selectedSeverities.push(element.value);
+ })
 }
+
+/**
+ * Checkbox selected
+ */
 function isSelected(arr, val) {
- var found = false;
- arr.forEach(function(elem) {
-   if (elem == val) {;
-     found = true;
-     return found;
- }
+   var found = false;
+   arr.forEach(function(elem) {
+     if (elem == val) {;
+       found = true;
+       return found;
+   }
 })
- 
- return found;
+
+   return found;
 }
+
+/**
+ * open File dialog for SL log
+ */
 function openFile () {
   dialog.showOpenDialog(
   {
@@ -51,28 +65,48 @@ readFile
 );
 }
 
+/**
+ * Read the SL log file
+ */
 var fs = require('fs');
 function readFile(fileNames) {
-  if (fileNames === undefined)
+    if (fileNames === undefined)
       return;
-  else
-    files = fileNames;
+    else
+        files = fileNames;
 
-var fileName = fileNames[0];
-fs.readFile(fileName, 'utf-8', function (err, data) {
-    if (err) 
+    var fileName = fileNames[0];
+    fs.readFile(fileName, 'utf-8', function (err, data) {
 
- var obj = JSON.parse(data);
- parseJsonNew(obj);
+    var obj = JSON.parse(data);
+    parseJson(obj);
 });
 }
 
-function parseJsonNew(input) {
+/**
+ * Parse the openSAFETY error codes and push into map object
+ */
+var errorCodeMap = new Map();
+function parseErrorCodes() {
+    $.getJSON("errorcodes.json", function(data) {
+        $.each(data, function(i, item) {
+            errorCodeMap.set(item.id, item.desc);
+        });
+    });
+}
+
+/**
+ * Parse SL log json file and build table
+ */
+function parseJson(input) {
     $("table > tbody").empty();
+
     for (var i = 0, len = input.length; i < len; i++) {
+
         var dt = eval(input[i].TimeStamp);
         var timestamp = new Date(dt);
         var row;
+
         selectSeverities();
 
         if (isSelected(selectedSeverities, input[i].Level))
@@ -91,9 +125,9 @@ function parseJsonNew(input) {
             var decError = parseInt(input[i].ErrorCode, 16);
             var hexError = input[i].ErrorCode.toUpperCase();
             hexErrorIndex = "0x" + hexError; 
-            //console.log(hcode[hexErrorIndex].desc);
+            console.log(errorCodeMap.get(hexErrorIndex));
             //var textError = code[hexErrorIndex].desc;
-            row += "<td>" + " </td><td>"+ decError + " / 0x1"+ hexError +" </td>";
+            row += "<td>" + errorCodeMap.get(hexErrorIndex) + "</td><td>"+ decError + " / 0x1"+ hexError +" </td>";
 
             // error level icons
             row += "<td>0x" + input[i].ErrorInfo1 + "</td><td>0x" + input[i].ErrorInfo2 + "</td>";
@@ -110,60 +144,4 @@ function parseJsonNew(input) {
             $('table').prepend(row); 
         }
     }
-}
-
-function parseJson(input) {
-    $.getJSON(input, function( data ) {
-        console.log(input);
-        var tr;
-        if($.isEmptyObject(data))
-        {
-          row = "<tr><td colspan=\"7\"><p class=\"lead\">No openSAFETY SL log entries available.</td></tr>";
-          $('table').append(row);
-      }
-      else
-      {
-        $.each(data, function(i, item) {
-          var dt = eval(data[i].TimeStamp);
-          var timestamp = new Date(dt);
-          var row;
-
-
-          if(data[i].Level == "Warning"){ 
-            row = "<tr class=\"warning\">";}
-            else if(data[i].Level == "Error"){
-                row = "<tr class=\"danger\">";}
-                else{
-                    row = "<tr>"
-                }
-          // Get error description for the error code
-          $.getJSON("errorcodes.json", function(code) {
-
-            row += "<td>" + data[i].Nr + "</td><td>" + data[i].EntryNr + "</td><td>" + timestamp.toLocaleString() + "</td>";
-
-            //  Hexadecimal and decimal representation
-            var decError = parseInt(data[i].ErrorCode, 16);
-            var hexError = data[i].ErrorCode.toUpperCase();
-            hexErrorIndex = "0x" + hexError; 
-            //console.log(hcode[hexErrorIndex].desc);
-            var textError = code[hexErrorIndex].desc;
-            row += "<td>" + textError + " </td><td>"+ decError + " / 0x1"+ hexError +" </td>";
-
-            // error level icons
-            row += "<td>0x" + data[i].ErrorInfo1 + "</td><td>0x" + data[i].ErrorInfo2 + "</td>";
-            if(data[i].Level == "Warning"){ 
-              row += "<td> <i class=\"small material-icons\">warning</i></td>";}
-              else if(data[i].Level == "Error"){
-                  row += "<td> <i class=\"small material-icons\">not_interested</i></td>";}
-                  else{
-                      row += "<td>"
-                  }
-
-                  row += " " + data[i].Level + "</td></tr>";
-            // build table from new to old entries
-            $('table').prepend(row);
-
-        });
-      });
-    }});
 }
