@@ -125,9 +125,8 @@ function parseJson(input) {
             var decError = parseInt(input[i].ErrorCode, 16);
             var hexError = input[i].ErrorCode.toUpperCase();
             hexErrorIndex = "0x" + hexError; 
-            console.log(errorCodeMap.get(hexErrorIndex));
             //var textError = code[hexErrorIndex].desc;
-            row += "<td>" + errorCodeMap.get(hexErrorIndex) + "</td><td>"+ decError + " / 0x1"+ hexError +" </td>";
+            row += "<td>" + errorCodeMap.get(hexErrorIndex) + "</a></td><td>"+ decError + " / 0x1"+ hexError +" </td>";
 
             // error level icons
             row += "<td>0x" + input[i].ErrorInfo1 + "</td><td>0x" + input[i].ErrorInfo2 + "</td>";
@@ -145,3 +144,4 @@ function parseJson(input) {
         }
     }
 }
+
