@@ -1,8 +1,9 @@
 # openSAFETY log browser
 
 
-This is a log browser application for openSAFETY used with a openPOWERLINKMN based on tElectron.
+This is a log browser application for openSAFETY used with a openPOWERLINKMN based on Electron.
 
+![openSAFETY-logbrowser](https://github.com/banickn/openSAFETY-logbrowser/blob/master/example.png)
 ## To Use
 
 To clone and run this repository you'll need [Git](https://git-scm.com) and [Node.js](https://nodejs.org/en/download/) (which comes with [npm](http://npmjs.com)) installed on your computer. From your command line:
